@@ -1,0 +1,100 @@
+.container {
+border:2px;
+margin:20px
+padding : 20px;
+}
+.box{
+    text-align: center;
+    background-color: rgb(185, 237, 220);
+}
+
+.box1{
+    font-size: 80%;
+    color: #545050;
+}
+.box2 {
+    border:2px;
+    margin:20px;
+    padding:20px;
+
+}
+.box3 {
+width:100%;
+border:20px;
+margin: 20px;
+padding:20px;
+
+
+}
+.box4{
+border:20px;
+margin: 20px;
+padding:20px;
+
+}
+.box5{
+    text-align: center;
+}
+
+.navbar{
+
+    width: 78%;
+    display: flex;
+    margin: auto;
+    padding: 15px;
+    align-items: center;
+    justify-content: space-between;
+    
+    }
+    .navbar .logo{
+    
+    width: 160px;
+    cursor: pointer;
+    margin-top: -3%;
+    margin-left: -2%;
+    
+    }
+    ul{
+    margin-top: -4%;
+    }
+    
+    ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px;
+    }
+    
+    ul li a{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(38, 196, 38);
+    margin-top: -3%;
+    
+    
+}
+    .navbar {
+    background-color:white;
+    overflow: hidden;
+    }
+    
+    .navbar a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-bottom: 3px solid transparent;
+    }
+    .navbar a:hover {
+    border-bottom: 3px solid rgb(249, 162, 63);
+    }
+    
+    .navbar a.active {
+    border-bottom: 3px solid rgb(249, 162, 63);
+    }
+   
+    
+   
+    
